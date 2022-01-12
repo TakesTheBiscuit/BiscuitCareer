@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index"
+    "start": "node index",
+    "generate": "npm run generatePath && npm run generatePast",
+    "generatePath": "mmdc -i diagramPath.mmd  -o path.png -w 1024 -H 768",
+    "generatePast": "mmdc -i diagramPast.mmd  -o past.png -w 1024 -H 768"
   },
   "repository": {
     "type": "git",
@@ -18,6 +21,7 @@
   },
   "homepage": "https://github.com/TakesTheBiscuit/BiscuitCareer#readme",
   "dependencies": {
+    "@mermaid-js/mermaid-cli": "^8.13.7",
     "mermaid": "^8.13.8"
   }
 }
