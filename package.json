@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index",
     "generate": "npm run generatePath && npm run generatePast",
-    "generatePath": "mmdc -i diagramPath.mmd  -o path.png -w 1024 -H 768",
-    "generatePast": "mmdc -i diagramPast.mmd  -o past.png -w 1024 -H 768"
+    "generatePath": "mmdc -i diagramPath.mmd  -o docs/path.png -w 1024 -H 768",
+    "generatePast": "mmdc -i diagramPast.mmd  -o docs/past.png -w 1024 -H 768"
   },
   "repository": {
     "type": "git",
