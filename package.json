@@ -1,0 +1,19 @@
+{
+  "name": "biscuitcareer",
+  "version": "1.0.0",
+  "description": "Career path and PDP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TakesTheBiscuit/BiscuitCareer.git"
+  },
+  "author": "TakesTheBiscuit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TakesTheBiscuit/BiscuitCareer/issues"
+  },
+  "homepage": "https://github.com/TakesTheBiscuit/BiscuitCareer#readme"
+}
