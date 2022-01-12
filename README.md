@@ -6,3 +6,5 @@ BiscuitCareer: My career path and personal development plans
 
 - `npm i`
 - `npm run generate`
+
+### Updated 2022
